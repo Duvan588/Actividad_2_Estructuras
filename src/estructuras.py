@@ -43,5 +43,6 @@ if modificar ==1:
 
 
 
-elif modificar ==2:
+elif modificar=
+r ==2:
    exit()
