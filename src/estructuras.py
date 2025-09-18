@@ -15,7 +15,7 @@ estudiantes = {
 #mostrar la información de un estudiante
 nombre = input("nombre del estudiante: ")
 info = estudiantes[nombre]#buscar alumno
-print(f"{nombre} - {info['curso']} ({info['semestre']})")
+print(f"{nombre} - {info['curso']} ({info['semestre']})")# demostramos los diccionarios hechos anteriormente
 print("Calificaciones:", info["calificaciones"])
 
 #se pedira al usuario si desea modificar o salir
