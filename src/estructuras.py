@@ -36,7 +36,7 @@ if modificar ==1:
        print("Calificaciones:", info["calificaciones"])
        posicion = int(input("posicion de la nota: "))#necesitamos la posicion de la lista (recordar que la primera posicion es la posicion 0)
        cambiar = float(input("valor de la nota: "))
-       estudiantes[nombre]["calificaciones"][posicion] = cambiar #se hace el intercambio de notas
+       estudiantes[nombre]["calificaciones"][posicion] = cambiar #se hace el intercambio de notas a su vez mostrando la lista al usuario
        print(estudiantes[nombre]["calificaciones"])
     
     print(f"Promedio: {sum(estudiantes[nombre]['calificaciones']) / len(estudiantes[nombre]['calificaciones']):.2f}")#:.2f redondea a 2 decimales
